@@ -1,4 +1,4 @@
-# instant-coloring-book
+
 
 This repository contains a React Native application and a Chrome extension.
 
