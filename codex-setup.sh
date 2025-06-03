@@ -4,11 +4,15 @@
 set -e
 
 # Install npm dependencies only if node_modules is missing or outdated
-if [ ! -d node_modules ]; then
-  echo "Installing npm dependencies..."
-  npm install
+if [ -f package.json ]; then
+  if [ ! -d node_modules ]; then
+    echo "Installing npm dependencies..."
+    npm install
+  else
+    echo "node_modules already exists, skipping npm install"
+  fi
 else
-  echo "node_modules already exists, skipping npm install"
+  echo "No package.json found, skipping npm install"
 fi
 
 # Additional setup steps for the Chrome extension can be added here
