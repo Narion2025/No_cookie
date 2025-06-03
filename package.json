@@ -1,0 +1,11 @@
+{
+  "name": "aggressive-cookie-killer",
+  "version": "0.1.0",
+  "description": "Chrome extension to remove cookie banners",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {}
+}
