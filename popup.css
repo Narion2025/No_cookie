@@ -1,0 +1,19 @@
+body {
+    font-family: system-ui, sans-serif;
+    margin: 10px;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  .status {
+    margin-bottom: 10px;
+  }
+  .status.success {
+    color: green;
+  }
