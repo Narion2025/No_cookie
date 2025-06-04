@@ -3,7 +3,7 @@ function setStatus(text, cls) {
     status.textContent = text;
     status.className = 'status ' + cls;
   }
-  
+
   document.getElementById('block').addEventListener('click', function() {
     chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
       chrome.scripting.executeScript({ target: { tabId: tabs[0].id }, func: function() {
@@ -12,4 +12,3 @@ function setStatus(text, cls) {
     });
     setStatus('✅ Schutz aktiviert!', 'success');
   });
-  
