@@ -1,0 +1,11 @@
+{
+  "name": "no_cookie",
+  "version": "1.0.0",
+  "description": "Aggressive Cookie Killer Chrome Extension",
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
+  "author": "",
+  "license": "MIT"
+}
+
