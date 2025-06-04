@@ -1,5 +1,4 @@
 
-
 This repository contains a React Native application and a Chrome extension.
 
 ## Setup in the Codex environment
@@ -11,3 +10,8 @@ Run the provided setup script to install dependencies before network access is d
 ```
 
 This installs the Node.js dependencies listed in `package.json` if they are not already present.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
